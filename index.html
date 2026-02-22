@@ -12,7 +12,119 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- google font linked -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font- awesome cdnjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Job Application Tracker</title>
+
+    <style>
+      * {
+        font-family: "Geist", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body class="bg-gray-50">
+    <header class="pt-14 text-[32px] font-bold w-[1110px] mx-auto pb-[30px]">
+      <h1 class="mb-5">Job Application Tracker</h1>
+
+      <!-- main cards -->
+      <div class="flex gap-6 pb-[30px] border-b-2 border-gray-200">
+        <!-- card 1 -->
+        <div class="card bg-base-100 w-96">
+          <div class="card-body">
+            <h2 class="card-title">Total</h2>
+            <p class="text-2xl font-bold">0</p>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card bg-base-100 w-96">
+          <div class="card-body">
+            <h2 class="card-title">Interview</h2>
+            <p class="text-2xl font-bold text-[#10b981]">0</p>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card bg-base-100 w-96">
+          <div class="card-body">
+            <h2 class="card-title">Rejected</h2>
+            <p class="text-2xl font-bold text-[#ef4444]">0</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main part start -->
+    <section class="w-[1110px] mx-auto pb-[30px]">
+      <!-- header jobs -->
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Available Job</h3>
+        <p class="font-medium"><span>0</span> Jobs</p>
+      </div>
+
+      <!-- container -->
+      <div class="space-y-4">
+        <!-- button group -->
+        <div class="mt-6">
+          <button class="btn btn-primary text-gray-200 font-semibold mr-2 px-9">
+            All
+          </button>
+          <button
+            class="btn btn-soft bg-white text-gray-500 font-semibold mr-2"
+          >
+            Interview
+          </button>
+          <button
+            class="btn btn-soft bg-white text-gray-500 font-semibold mr-2"
+          >
+            Rejected
+          </button>
+        </div>
+
+        <!-- all jobs cards -->
+        <div class="">
+          <!-- card - 1 -->
+          <div class="">
+            <div class="">
+              <h4>Mobile First Corp</h4>
+              <p>React Native Developer</p>
+
+              <p>Remote • Full-time • $130,000 - $175,000</p>
+
+              <button class="btn btn-soft">NOT APPLIED</button>
+
+              <p>
+                Build cross-platform mobile applications using React Native.
+                Work on products used by millions of users worldwide.
+              </p>
+              <!-- btn-group -->
+              <div class="space-x-2">
+                <button class="btn btn-outline btn-success">INTERVIEW</button>
+                <button class="btn btn-outline btn-error">REJECTED</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DELETE -->
+        <div class=""></div>
+      </div>
+    </section>
+  </body>
 </html>
