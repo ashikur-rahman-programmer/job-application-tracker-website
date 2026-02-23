@@ -15,3 +15,8 @@
 - create element --> document.createElement()
 - set text or attribute --> document.createElement().innerText or classList.add().
 - parent inside the child --> appendChild()
+
+## What is Event Bubbling? And how does it work?
+
+- Event Bubbling is behavior a JavaScript. where event (click) triggered an child element propagates of parent, grandparent etc.
+  Event move from the bottom to the top of the DOM propagate.
