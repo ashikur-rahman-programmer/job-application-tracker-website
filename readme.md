@@ -7,3 +7,11 @@
 - querySelector --> This is a css selector and return first match element. this is highly flexible but slower then getElementById method.
 
 - querySelectorAll --> This is a css selector and return NodeList. it's support .forEach() directly.
+
+## How do you create and insert a new element into the DOM?
+
+- Add a new element to the DOM , follow 3 step -
+
+- create element --> document.createElement()
+- set text or attribute --> document.createElement().innerText or classList.add().
+- parent inside the child --> appendChild()
