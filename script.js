@@ -199,7 +199,7 @@ function renderingInterview() {
     const div = document.createElement("div");
 
     div.className =
-      "flex justify-between items-start p-6 border-l-6 border-l-transparent rounded-xl bg-white hover:-translate-y-0.5 hover:shadow hover:border-l-6 hover:border-l-amber-400 hover:rounded-tl-none hover:rounded-bl-none transition-all duration-300 ease-in-out mb-6";
+      "flex gap-6 lg:gap-0 justify-between items-start p-6 border-l-6 border-l-transparent rounded-xl bg-white hover:-translate-y-0.5 hover:shadow hover:border-l-6 hover:border-l-green-500 hover:rounded-tl-none hover:rounded-bl-none transition-all duration-300 ease-in-out mb-6";
 
     div.innerHTML = `
             <div class="">
@@ -257,7 +257,7 @@ function renderingRejected() {
     const div = document.createElement("div");
 
     div.className =
-      "flex justify-between items-start p-6 border-l-6 border-l-transparent rounded-xl bg-white hover:-translate-y-0.5 hover:shadow hover:border-l-6 hover:border-l-amber-400 hover:rounded-tl-none hover:rounded-bl-none transition-all duration-300 ease-in-out mb-6";
+      "flex gap-6 lg:gap-0 justify-between items-start p-6 border-l-6 border-l-transparent rounded-xl bg-white hover:-translate-y-0.5 hover:shadow hover:border-l-6 hover:border-l-green-500 hover:rounded-tl-none hover:rounded-bl-none transition-all duration-300 ease-in-out mb-6";
 
     div.innerHTML = `
             <div class="">
